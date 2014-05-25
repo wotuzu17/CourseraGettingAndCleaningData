@@ -35,7 +35,7 @@ The tidy data set is a comma separated file (delimiter character =",") and can b
 ### Tidy Data Set Columns
 *subject* is the person who was doing the activity in the research. There are 30 persons, numbered from 1-30.
 
-*activity* is the activity the subject was doing in the research. There are 6 different activities as stated in the activity_labels.txt file. The activities in the tidy data set are written as text rather than its ID.
+*activity* is the activity the subject was doing in the research. There are 6 different activities as stated in the activity_labels.txt file. The activities in the tidy data set are written as text rather than by its numbered ID.
 
 For all the other columns refer to the features_info.txt file in the raw data set. Note that for each row, the raw data is filtered for the specific subject doing the specific activity, and the value in the matching row in the tidy data set is the **mean** of all these filtered observations for one person doing one activity.
 
